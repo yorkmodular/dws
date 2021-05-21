@@ -8,7 +8,7 @@ Here you'll find:
 - The schematic
 - Design files for the front panel, should you be seized with a desire to roll your own.
 
-###In use
+### In use
 
 Twiddle the knobs.
 
@@ -20,7 +20,7 @@ I find that the best results can be obtained from sine and triangle waves, where
 
 A good starting point would be to have the SCALE pot fully counter-clockwise and the SLOPE pot at around 10 o'clock - when adjusting the levels in the diode stages, try and avoid consecutive 'extreme' values.
 
-###Build notes
+### Build notes
 
 The build is pretty straightforward - there are no surface-mount or wilfully strange parts, unless you count Schottky diodes.
 
@@ -29,5 +29,7 @@ The build is pretty straightforward - there are no surface-mount or wilfully str
 * I strongly recommend using Schottky (or germanium) diodes for both the diode stages (D1-D8) and the soft-clipping section (D10, D11) - ideally, the voltage drop for these diodes should be no more than 0.3V - for pre-built modules I use Vishay SD101C-TR diodes, but any small-signal Schottky will do. It's OK to use 1N4148s for the power supply diodes (D13, D14)
 
 * In terms of pots, RV1 to RV8 should be 100k audio taper - linear taper will work fine, but I found that the log taper pots gave me more control. SCALE1 and SLOPE1 pots should be 100k linear, whilst the OUTPUT_GAIN pot should be 100k audio.
+
+* Reduce the value of R19 if you want more gain.
 
 * The op-amp doesn't need to be anything particularly exotic - I generally use TL084s on pre-builts. TL074 will work just as well.
