@@ -28,7 +28,7 @@ The build is pretty straightforward - there are no surface-mount or wilfully str
 
 * I strongly recommend using Schottky (or germanium) diodes for both the diode stages (D1-D8) and the soft-clipping section (D10, D11) - ideally, the voltage drop for these diodes should be no more than 0.3V - for pre-built modules I use Vishay SD101C-TR diodes, but any small-signal Schottky will do. It's OK to use 1N4148s for the power supply diodes (D13, D14)
 
-* In terms of pots, RV1 to RV8 should be 100k audio taper - linear taper will work fine, but I found that the log taper pots gave me more control. SCALE1 and SLOPE1 pots should be 100k linear, whilst the OUTPUT_GAIN pot should be 100k audio.
+* In terms of pots, RV1 to RV8 should be 100k audio taper - linear taper will work fine, but I found that the log taper pots gave me more control. SCALE1 and SLOPE1 pots should be linear taper (10k and 100k, respectively), whilst the OUTPUT_GAIN pot should be 100k audio.
 
 * Reduce the value of R19 if you want more gain.
 
